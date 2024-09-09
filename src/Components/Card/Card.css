@@ -1,0 +1,11 @@
+.crad{
+background-color: var(--color-dark);
+padding: calc(var(--padding-primary)/3);
+border-radius: var(--border-radius-primary);
+margin: calc(var(--margin-primary)/4);
+}
+
+.card-img>img{
+    border-radius: var(--border-radius-primary);
+    margin-bottom: calc(var(--margin-primary)/2);
+}

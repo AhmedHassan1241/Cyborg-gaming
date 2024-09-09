@@ -1,0 +1,23 @@
+.mostPopular-main{
+    background-color: var(--color-darkest);
+    margin: var(--margin-primary);
+    padding: calc(var(--padding-primary)/2);
+    border-radius: var(--border-radius-primary);
+}
+
+.mostPopular-title>h4{
+margin-bottom:var(--margin-primary);
+font-size:20px;
+font-weight: var(--font-weight-bold);
+color: var(--color-primary);
+}
+.mostPopular-title>h4  span{
+    color: var(--color-light);
+    text-decoration: underline;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 50%;
+}

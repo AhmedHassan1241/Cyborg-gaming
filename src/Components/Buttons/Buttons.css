@@ -1,0 +1,16 @@
+.main-button a{
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-primary);
+    padding: calc(var(--padding-primary)/4) calc(var(--padding-primary)/1.5);
+    width: max-content;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main-button  > a {
+    text-decoration: none;
+    color: var(--color-light);
+}
+.main-button a:hover{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}

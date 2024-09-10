@@ -1,20 +1,12 @@
-import {
-  GamingLibrary,
-  // MostPopularClips,
-  // ProfileHero,
-} from "../../section/index";
-// import "./Profile.css";
-// import profile from "../../Assets/images/profile.jpg";
-import { SectionWrapper } from "../../Components";
+import { GamingLibrary } from "../../section/index";
+import { Container } from "../../Components";
 
 const Profile = () => {
   return (
     <>
-      <SectionWrapper>
-        {/* <ProfileHero src={profile} /> */}
-        {/* <MostPopularClips /> */}
-      </SectionWrapper>
-      <GamingLibrary />
+      <Container>
+        <GamingLibrary />
+      </Container>
     </>
   );
 };

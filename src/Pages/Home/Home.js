@@ -1,13 +1,21 @@
 import { Hero, MostPopular,GamingLibrary } from "../../section/index";
-import { Container } from "../../Components";
+import { Container, ViewButton } from "../../Components";
 
 const Home = () => {
   return (
     <>
     <Container>
         <Hero />
-        <MostPopular />
-        <GamingLibrary/>
+        <MostPopular >
+        <ViewButton>
+        Discover Popular
+      </ViewButton>
+        </MostPopular>
+        <GamingLibrary>
+          <ViewButton>
+          View Your Library
+          </ViewButton>
+        </GamingLibrary>
       </Container>
     </>
   );

@@ -6,6 +6,7 @@
     border-radius: var(--border-radius-primary);
     padding: var(--padding-primary);
     margin: var(--margin-primary);
+
 }
 .hero-text{
     max-width: 500px;
@@ -17,16 +18,16 @@
     margin-bottom: var(--margin-primary);
 
 }
-.hero-title em{
-    color: var(--color-primary); 
-    font-style: normal;
-    margin-right: 10px;
-}
 .hero-title{
     font-size: 45px;
     text-transform: uppercase;
     margin-bottom: var(--padding-primary);
     font-weight: var(--font-weight-bold);
+}
+.hero-title em{
+    color: var(--color-primary); 
+    font-style: normal;
+    margin-right: 10px;
 
 }
 

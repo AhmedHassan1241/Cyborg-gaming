@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <div className="navbar navbar-expand-md navbar-dark cyborg-navbar">
         <div className="container">
-          <Link to="#.." className="navbar-brand">
+          <Link to="/" className="navbar-brand">
             <img src={logo} alt=".." />
           </Link>
           <button

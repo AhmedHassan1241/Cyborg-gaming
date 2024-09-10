@@ -1,7 +1,7 @@
-import { Card, PrimaryButton, SectionHeader, SectionWrapper } from "../../Components";
+import { Card, SectionHeader, SectionWrapper } from "../../Components";
 import mostPopularData from "../../Data/MostPopularData";
 import "./MostPopular.css";
-const MostPopular = () => {
+const MostPopular = (props) => {
     const cards= mostPopularData.map(card=>(
         <Card card={card} key={card.id}/>
     ))
@@ -15,11 +15,7 @@ const MostPopular = () => {
           <div className="cards">
           {cards}
           </div>
-        <div className="discoverPopular">
-      <PrimaryButton>
-        Discover Popular
-      </PrimaryButton>
-        </div>
+      {props.children}
       </SectionWrapper>
     </>
   );

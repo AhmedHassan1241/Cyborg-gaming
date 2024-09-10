@@ -1,4 +1,5 @@
 .custom-container{
+    width: auto;
     color: var(--color-light);
     background-color: var(--color-darkest);
     margin: calc(var(--margin-primary)/4) var(--margin-primary) 0;

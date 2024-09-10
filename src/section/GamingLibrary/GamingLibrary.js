@@ -1,13 +1,13 @@
 import "./GamingLibrary.css";
 import {
   GamingLibraryCard,
-  PrimaryButton,
+  // PrimaryButton,
   SectionHeader,
   SectionWrapper,
 } from "../../Components";
 
 import GamingLibraryData from "../../Data/GamingLibraryData";
-function GamingLibrary() {
+function GamingLibrary(props) {
   const cards = GamingLibraryData.map((card) => {
     return (
       <GamingLibraryCard
@@ -28,11 +28,7 @@ function GamingLibrary() {
           <span>Your Gaming </span> Library
         </SectionHeader>
         <div className="gaming-library-cards mb-5">{cards}</div>
-        <div className="viewLibraryBtn">
-        <PrimaryButton>
-          View Your Library
-        </PrimaryButton>
-        </div>
+        {props.children}
       </SectionWrapper>
     </>
   );

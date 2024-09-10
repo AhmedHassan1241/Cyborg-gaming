@@ -1,18 +1,18 @@
 import {
   GamingLibrary,
-  MostPopularClips,
-  ProfileHero,
+  // MostPopularClips,
+  // ProfileHero,
 } from "../../section/index";
-import "./Profile.css";
-import profile from "../../Assets/images/profile.jpg";
+// import "./Profile.css";
+// import profile from "../../Assets/images/profile.jpg";
 import { SectionWrapper } from "../../Components";
 
 const Profile = () => {
   return (
     <>
       <SectionWrapper>
-        <ProfileHero src={profile} />
-        <MostPopularClips />
+        {/* <ProfileHero src={profile} /> */}
+        {/* <MostPopularClips /> */}
       </SectionWrapper>
       <GamingLibrary />
     </>

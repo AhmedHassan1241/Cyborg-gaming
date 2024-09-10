@@ -1,0 +1,30 @@
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: calc(var(--padding-primary)/2);
+}
+li{
+    list-style-type: none;
+    /* text-align: center; */
+    /* margin: calc(var(--margin-primary)/4); */
+}
+li>img{
+    border-radius: var(--border-radius-primary);
+    width:50% ;
+}
+li>h4{
+    font-size: 15px;
+}
+li>span{
+    color: #666;
+    font-size: 14px;
+}
+/* @media only screen and (max-width: 850px) {
+    .gaming-library-card{
+color: yellow;
+text-align: center;
+    }
+  } */

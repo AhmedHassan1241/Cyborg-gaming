@@ -1,6 +1,7 @@
 import "./GamingLibrary.css";
 import {
   GamingLibraryCard,
+  PrimaryButton,
   SectionHeader,
   SectionWrapper,
 } from "../../Components";
@@ -24,10 +25,14 @@ function GamingLibrary() {
     <>
       <SectionWrapper>
         <SectionHeader>
-          {" "}
-          <em>Your Gaming </em> Library
+          <span>Your Gaming </span> Library
         </SectionHeader>
-        <div className="gaming-library-cards">{cards}</div>
+        <div className="gaming-library-cards mb-5">{cards}</div>
+        <div className="viewLibraryBtn">
+        <PrimaryButton>
+          View Your Library
+        </PrimaryButton>
+        </div>
       </SectionWrapper>
     </>
   );

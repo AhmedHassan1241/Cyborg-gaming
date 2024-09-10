@@ -1,32 +1,37 @@
 import "./GamingLibraryCard.css";
 import { SecondaryButton } from "../../Components/index";
 
-const GamingLibraryCard = ({ game }) => {
+const GamingLibraryCard = (props) => {
   return (
-    <div className="gaming-library-card">
+  <>
+    <div className="gaming-library-card" key={props.id}>
       <ul>
-        <li>
-          <img src={game.src} alt="" />
+        <li style={{textAlign:"center",width:"fit-content"}}>
+          <img src={props.src} alt="" />
         </li>
         <li>
-          <h4>{game.title}</h4>
-          <span>{game.category}</span>
+          <h4>{props.title}</h4>
+          <span>{props.category}</span>
         </li>
         <li>
           <h4>Date Added</h4>
-          <span>{game.dataAdded}</span>
+          <span>{props.dataAdded}</span>
         </li>
         <li>
           <h4>Hours Played</h4>
-          <span>{game.hoursPlayed}</span>
+          <span>{props.hoursPlayed}</span>
         </li>
         <li>
           <h4>Currently</h4>
-          <span>{game.download}</span>
+          <span>{props.download}</span>
         </li>
-        <SecondaryButton>{game.download}</SecondaryButton>
+        <div style={{margin:"15px 0"}}>
+        <SecondaryButton>{props.download}</SecondaryButton>
+        </div>
       </ul>
     </div>
+    <hr style={{width:"90%",margin:"auto",opacity:"10%"}} />
+    </>
   );
 };
 

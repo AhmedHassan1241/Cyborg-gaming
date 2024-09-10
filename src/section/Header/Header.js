@@ -1,3 +1,4 @@
+import  {Link} from "react-router-dom";
 import logo from "../../Assets/images/logo.png";
 import { NavItem, NavItemDropDown } from "../../Components";
 import "./Header.css";
@@ -7,9 +8,9 @@ const Header = () => {
     <>
       <div className="navbar navbar-expand-md navbar-dark cyborg-navbar">
         <div className="container">
-          <a href="#.." className="navbar-brand">
+          <Link to="#.." className="navbar-brand">
             <img src={logo} alt=".." />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,47 +23,47 @@ const Header = () => {
             <ul className="navbar-nav ms-auto">
               <NavItem>
                 {" "}
-                <a href="#hero" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home
-                </a>
+                </Link>
               </NavItem>
               <NavItem>
                 {" "}
-                <a href="#hero" className="nav-link">
+                <Link to="#hero" className="nav-link">
                   Browse
-                </a>
+                </Link>
               </NavItem>
               <NavItemDropDown>
                 {" "}
-                <a
-                  href="#.."
+                <Link
+                  to="#.."
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                 >
                   Details
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a href="#learn" className="dropdown-item">
+                    <Link to="#learn" className="dropdown-item">
                       Fortnite
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#next" className="dropdown-item">
+                    <Link to="#next" className="dropdown-item">
                       Call Of Duty
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </NavItemDropDown>{" "}
               <NavItem>
-                <a href="#hero" className="nav-link">
+                <Link to="#hero" className="nav-link">
                   Streams
-                </a>
+                </Link>
               </NavItem>
               <NavItem>
-                <a href="#hero" className="nav-link">
+                <Link to="/profile" className="nav-link">
                   Profile
-                </a>
+                </Link>
               </NavItem>
             </ul>
           </div>

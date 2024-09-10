@@ -5,7 +5,7 @@ import { FaDownload } from "react-icons/fa6";
 
 const Card = ({card}) => {
   return (
-    <div className="crad">
+    <div key={card.id} className="cardd">
     <div className="card-body">
       <div className="card-img">
         <img src={card.img} alt=".."></img>

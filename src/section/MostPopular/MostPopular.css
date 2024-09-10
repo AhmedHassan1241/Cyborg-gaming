@@ -18,6 +18,5 @@ color: var(--color-primary);
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    flex: 1 50%;
+    justify-content: space-evenly;
 }

@@ -1,6 +1,6 @@
-.section-header>h4{
-    margin-bottom:var(--margin-primary);
-    font-size: 34px;
-        font-weight: var(--font-weight-bold);
-    color: var(--color-primary);
-    }
+.section-header > h4 {
+  margin-bottom: var(--margin-primary);
+  font-size: 2.5vw; /*for responsive font size*/
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}

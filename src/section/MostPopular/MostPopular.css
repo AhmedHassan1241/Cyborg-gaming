@@ -1,5 +1,5 @@
 
-.section-header>h4 span{
+.section-header>h4>span{
     color: var(--color-light);
     text-decoration: underline;
 }

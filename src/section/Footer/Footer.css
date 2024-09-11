@@ -5,10 +5,10 @@
     margin: calc(var(--margin-primary)/4) var(--margin-primary) 0;
     padding:calc(var(--padding-primary)/4) var(--padding-primary);
 }
-.row{
+.container-footer{
     text-align: center;
 }
-p > a {
+ p > a {
     text-decoration: none;
     color: var(--color-light);
 }

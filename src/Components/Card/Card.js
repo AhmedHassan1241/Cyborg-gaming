@@ -10,7 +10,7 @@ const Card = ({ card }) => {
         <div className="card-img">
           <img src={card.img} alt=".."></img>
         </div>
-        <div className="card-title d-flex justify-content-between">
+        <div className="card-title d-flex justify-content-around">
           <h4 style={{ fontWeight: "bold", fontSize: "15px" }}>{card.title}</h4>
           <p style={{ fontSize: "14px" }}>
             <span style={{ color: "yellow" }}>
@@ -19,7 +19,7 @@ const Card = ({ card }) => {
             {card.rate}
           </p>
         </div>
-        <div className="card-subtitle d-flex justify-content-between">
+        <div className="card-subtitle d-flex justify-content-around">
           <span
             style={{
               fontSize: "13px",

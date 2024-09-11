@@ -1,0 +1,35 @@
+.card-clip{
+flex:20%;
+margin: calc(var(--margin-primary)/4);
+color: var(--color-light);
+background-color: var(--color-dark);
+border-radius: var(--border-radius-primary);
+padding: calc(var(--padding-primary)/2) calc(var(--padding-primary)/4) 0;
+}
+.clip-card-img{
+    border-radius: var(--border-radius-primary);
+}
+.clip-card-title{
+    font-size: var(--font-size1);
+    font-weight: var(--font-weight-bold);
+    margin: calc(var(--margin-primary)/2) calc(var(--margin-primary)/4)  0 ;
+}
+.clip-card-text{
+    font-size: var(--font-size2);
+    font-weight: var(--font-weight-normal);
+    margin: calc(var(--margin-primary)/2) calc(var(--margin-primary)/4) ;
+}
+.clip-card-body{
+display: flex;
+justify-content: space-between;
+}
+
+.paly-clip svg{
+    width: 20%;
+    height: 26%;
+    position: absolute;
+    left: 35%;
+    bottom: 45%;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}

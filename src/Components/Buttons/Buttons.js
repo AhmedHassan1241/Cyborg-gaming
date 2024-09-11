@@ -27,5 +27,13 @@ const ViewButton = (props) => {
     </div>
   );
 };
+
+const OffBtn = (props) => {
+  return (
+    <div className=" button offBtn">
+        <a href="##">{props.children}</a>
+    </div>
+  );
+};
 export default PrimaryButton;
-export { SecondaryButton, ViewButton };
+export { SecondaryButton, ViewButton ,OffBtn };

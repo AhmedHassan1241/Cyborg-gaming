@@ -3,7 +3,7 @@
 --color-darkest: #1f2122;
 --color-light: #fff;
 --color-primary: #ec6090;
-
+--color-muted:#666;
 --color-bg-body:var(--color-darkest);
 
 
@@ -15,6 +15,8 @@
 
 --border-radius-primary: calc(var(--distance-primary) / 2);
 
+--font-size1:15px;
+--font-size2:14px;
 --font-weight-bold: 900;
 --font-weight-normal: 400;
 }

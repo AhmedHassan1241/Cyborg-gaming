@@ -1,5 +1,6 @@
 import  {Link} from "react-router-dom";
 import logo from "../../Assets/images/logo.png";
+import profileHeader from "../../Assets/images/profile-header.jpg";
 import { NavItem, NavItemDropDown } from "../../Components";
 import "./Header.css";
 
@@ -7,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className="navbar navbar-expand-md navbar-dark cyborg-navbar">
-        <div className="container">
+        <div className="container mt-3">
           <Link to="/" className="navbar-brand">
             <img src={logo} alt=".." />
           </Link>
@@ -61,8 +62,11 @@ const Header = () => {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/profile" className="nav-link">
-                  Profile
+                <Link to="/profile" className="profNav nav-link">
+                  <div>
+                  Profile {" "}
+                  <img className="profHeader" src={profileHeader} alt=""/>
+                  </div>
                 </Link>
               </NavItem>
             </ul>

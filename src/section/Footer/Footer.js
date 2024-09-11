@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="custom-container">
-      <div className="row">
+      <div className="container-footer row">
         <div className="col-lg-12">
           <p>Copyright © 2036 <a href="/#">Cyborg Gaming</a> Company. All rights reserved. 
           
